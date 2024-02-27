@@ -1,0 +1,28 @@
+
+header.header-conteiner  {position: sticky;
+    top: 0;
+    z-index: 100;
+    
+
+    nav {
+        
+        display: flex;
+        ul {
+            width: 80%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }  
+    }
+    .navbar {
+        background-color: rgb(41, 131, 131);}
+    
+    .btn-outline-success {
+        color: black;
+        background-color: rgb(221, 228, 225);
+    }
+    .sembrarEspacio {
+        clip-path: circle(50%at 47% 50%);}
+
+}

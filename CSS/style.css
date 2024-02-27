@@ -1,0 +1,206 @@
+@charset "UTF-8";
+header.header-conteiner {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header.header-conteiner nav {
+  display: flex;
+}
+header.header-conteiner nav ul {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header.header-conteiner .navbar {
+  background-color: rgb(41, 131, 131);
+}
+header.header-conteiner .btn-outline-success {
+  color: black;
+  background-color: rgb(221, 228, 225);
+}
+header.header-conteiner .sembrarEspacio {
+  clip-path: circle(50% at 47% 50%);
+}
+
+main.main-conteiner {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+}
+main.main-conteiner h1 {
+  text-align: center;
+  border: 1px black solid;
+  width: 50%;
+  margin: auto;
+}
+main.main-conteiner h1 .titulo {
+  color: #333;
+}
+main.main-conteiner h2 {
+  color: #333;
+}
+main.main-conteiner .futbolAmateur {
+  color: black(2, 4, 5, 0.637);
+  text-align: start;
+  background-color: rgb(149, 197, 101);
+  width: 100%;
+}
+main.main-conteiner .imageninicio {
+  display: inline-block;
+  flex-direction: row;
+  white-space: nowrap;
+}
+main.main-conteiner .inscripcionPrete {
+  /* From https://css.glass */
+  background: #7fffd4;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(18, 88, 88, 0.29);
+}
+main.main-conteiner .imageninicio {
+  display: inline-block;
+  flex-direction: row;
+  white-space: nowrap;
+}
+main.main-conteiner .principal1 {
+  width: 450px;
+}
+main.main-conteiner .principal2 {
+  width: 450px;
+}
+main.main-conteiner .principal3 {
+  width: 450px;
+}
+main.main-conteiner .principal4 {
+  position: absolute;
+  top: 0; /* Ajusta la posición vertical según sea necesario */
+  left: 0; /* Ajusta la posición horizontal según sea necesario */
+  z-index: -1; /* Asegura que la imagen esté detrás de los demás elementos */
+}
+main.main-conteiner .grid-padre {
+  position: relative;
+  width: 15%;
+  display: grid;
+  background-color: #7fffd4;
+  grid-template-rows: 100px 5fr 2fr;
+  grid-template-columns: 1;
+  grid-template-areas: "box1" "box2" "box3" "box4" "box5";
+  height: 75vh;
+}
+main.main-conteiner .hijo1 {
+  text-align: center;
+  grid-area: box1;
+  border: 1px black solid;
+}
+main.main-conteiner .hijo2 {
+  text-align: center;
+  grid-area: box2;
+  border: 1px black solid;
+}
+main.main-conteiner .hijo3 {
+  text-align: center;
+  grid-area: box3;
+  border: 1px black solid;
+}
+main.main-conteiner .hijo4 {
+  text-align: center;
+  grid-area: box4;
+  border: 1px black solid;
+}
+main.main-conteiner .hijo5 {
+  text-align: center;
+  grid-area: box5;
+  border: 1px black solid;
+}
+main.main-conteiner .descripcion {
+  background: rgba(25, 206, 197, 0.73);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  border: 1px solid rgba(18, 88, 79, 0.71);
+  width: 600px;
+  margin-left: 450px;
+}
+main.main-conteiner h4 {
+  color: #666;
+}
+main.main-conteiner h4 {
+  color: #666;
+}
+main.main-conteiner video {
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
+}
+main.main-conteiner .videosordenados {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding: 15px;
+  border: 2px black solid;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+main.main-conteiner .videosordenados video {
+  width: 100%;
+}
+main.main-conteiner .videosordenados video:hover {
+  filter: sepia(80%);
+}
+main.main-conteiner #videosdestacados {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-evenly;
+  object-fit: cover;
+}
+main.main-conteiner .principal1 {
+  width: 450px;
+}
+main.main-conteiner .principal2 {
+  width: 450px;
+}
+main.main-conteiner .principal3 {
+  width: 450px;
+}
+
+footer {
+  background-color: dimgray;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.facebook {
+  clip-path: circle(40% 47% 50%);
+}
+
+.instagram {
+  clip-path: circle(540% 47% 50%);
+}
+
+.twitter {
+  clip-path: circle(40% 47% 50%);
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

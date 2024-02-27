@@ -1,0 +1,180 @@
+
+
+main.main-conteiner {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    
+    h1 {
+        text-align: center;
+        border: 1px black solid;
+        width: 50%;
+        margin: auto;
+    }
+    h1 .titulo {
+        color: #333
+        
+    }
+    h2 {
+            color: #333
+        } 
+        .futbolAmateur {
+            color: black(2, 4, 5, 0.637);
+            text-align: start;
+            background-color: rgb(149, 197, 101);
+            
+            width: 100%;} 
+    
+            .imageninicio {
+                display: inline-block;
+                
+                flex-direction: row;
+               
+                white-space: nowrap;
+            }
+            .inscripcionPrete{
+                /* From https://css.glass */
+            background: #7fffd4;
+            
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(1.9px);
+            -webkit-backdrop-filter: blur(1.9px);
+            border: 1px solid rgba(18, 88, 88, 0.29);
+            }
+            .imageninicio {
+                display: inline-block;
+                
+                flex-direction: row;
+               
+                white-space: nowrap;
+               
+            }
+            
+            .principal1 {
+                width: 450px;
+            }
+            .principal2 {
+                width: 450px;
+            }
+            .principal3 {
+                width: 450px;
+            }
+            .principal4 {
+            
+                    position: absolute;
+                    top: 0; /* Ajusta la posición vertical según sea necesario */
+                    left: 0; /* Ajusta la posición horizontal según sea necesario */
+                    z-index: -1; /* Asegura que la imagen esté detrás de los demás elementos */
+                }
+            
+        
+           
+    
+    
+            .grid-padre {
+    
+                position: relative;
+                width: 15%;
+                display: grid;
+                background-color: #7fffd4;
+                grid-template-rows: 100px 5fr 2fr;
+                grid-template-columns: 1;
+                grid-template-areas: "box1" 
+                                      "box2"
+                                      "box3"
+                                      "box4"
+                                      "box5";
+                height: 75vh
+                                    
+            }
+            .hijo1{
+                text-align: center;
+                grid-area: box1;
+                border: 1px black solid;
+            
+            }
+            .hijo2{
+                text-align: center;
+                grid-area: box2;
+                border: 1px black solid;
+            
+            }
+            .hijo3{
+                text-align: center;
+                grid-area: box3;
+                border: 1px black solid;
+            
+            }
+            .hijo4{
+                text-align: center; 
+                grid-area: box4;
+                border: 1px black solid;
+            
+            }
+            .hijo5{
+                text-align: center;
+                grid-area: box5;
+                border: 1px black solid;}
+            
+            
+            .descripcion {
+                background: rgba(25, 206, 197, 0.73);
+           border-radius: 16px;
+           box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+           backdrop-filter: blur(7.6px);
+           -webkit-backdrop-filter: blur(7.6px);
+           border: 1px solid rgba(18, 88, 79, 0.71);
+               width: 600px;
+               margin-left: 450px;
+           }
+           h4 {
+            color: #666
+        
+        }
+           h4 {
+            color: #666
+        
+        }
+        video {
+            
+            width: 500px;
+            height: 300px; 
+            margin-top: 10px; 
+        }
+        .videosordenados {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            padding: 15px;
+            border: 2px black solid;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+        .videosordenados video{
+        
+            width: 100%;
+        }
+        .videosordenados video:hover{
+            filter: sepia(80%);
+        }
+        #videosdestacados {
+            display: flex;
+            flex-direction: row;
+            align-content: stretch;
+            justify-content: space-evenly;
+            object-fit: cover;}
+            .principal1 {
+                width: 450px;
+            }
+            .principal2 {
+                width: 450px;
+            }
+            .principal3 {
+                width: 450px;}
+
+
+
+}
